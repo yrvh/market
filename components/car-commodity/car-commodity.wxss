@@ -1,0 +1,54 @@
+.carcom {
+  background-color: #fff;
+  border-bottom: 20rpx solid #eee;
+  padding: 30rpx 0;
+  display: flex;
+}
+.carcom-icon {
+  height: 182rpx;
+  width: 258rpx;
+  display: flex;
+  align-items: center;
+}
+.carcom-icon-select {
+  border-radius: 21rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+.carcom-icon-img {
+  margin-left: 20rpx;
+  width: 182rpx;
+  height: 182rpx;
+  border-radius: 4rpx;
+}
+
+.carcom-content {
+  flex: 1;
+}
+.carcom-content-message-taste {
+  margin-top: 22rpx;
+  padding: 0 16rpx;
+  width: 346rpx;
+  line-height: 44rpx;
+  border-radius: 8rpx;
+  background-color: #EEE;
+  color: #999;
+  font-size: 24rpx;
+}
+
+.carcom-content-bottom {
+  height: 58rpx;
+  margin-top: 55rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carcom-content-bottom text{
+  font-size: 24rpx;
+  font-weight: 700;
+}
+
+.add-goods-wh {
+  width: 198rpx;
+  height: 56rpx;
+}

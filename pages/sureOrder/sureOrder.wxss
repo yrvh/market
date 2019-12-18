@@ -1,0 +1,70 @@
+page{
+  width: 750rpx;
+  padding: 0;
+  background-color: #eee;
+  font-size: 28rpx;
+}
+
+.sureOrder-address-icon {
+  width: 72rpx;
+  height: 72rpx;
+  padding-top: 68rpx;
+}
+.sureOrder-address-icon-img {
+  width: 72rpx;
+  height: 72rpx;
+}
+.sureOrder-address-link {
+  width: 30rpx;
+  height: 60rpx;
+  padding-top: 78rpx;
+}
+
+.sureOrder-item {
+  margin: 20rpx 0;
+  padding: 0 26rpx;
+  background-color: #FFF;
+}
+.sureOrder-item-coupon text{
+  color: #f44f28;
+}
+.add-goods-wh {
+  width: 160rpx;
+  height: 50rpx;
+}
+
+.sureOrder-remark {
+  height: 92rpx;
+  padding: 0 26rpx;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+}
+.sureOrder-remark input{
+  height: 92rpx;
+  flex: 1;
+  padding-left: 28rpx;
+}
+
+.sureOrder-submit {
+  height: 97rpx;
+  padding: 0 26rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100rpx;
+}
+.sureOrder-submit-money {
+}
+.sureOrder-submit-money text{
+  color: #f44f28;
+}
+.sureOrder-submit-btn {
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background-color: #ffe300;
+  text-align: center;
+  line-height: 80rpx;
+}

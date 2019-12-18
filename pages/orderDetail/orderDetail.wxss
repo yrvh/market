@@ -1,0 +1,35 @@
+page{
+  width: 750rpx;
+  padding: 0;
+  background-color: #eee;
+  font-size: 28rpx;
+}
+
+
+.orderDetail-address {
+  background-color: #fff;
+  padding: 26rpx;
+  height: 135rpx;
+  font-size: 30rpx;
+  display: flex;
+  align-items: flex-end;
+}
+.orderDetail-address-icon {
+  width: 35rpx;
+  height: 42rpx;
+}
+.orderDetail-address-icon-img {
+  width: 35rpx;
+  height: 42rpx;
+}
+
+.orderDetail-item {
+  margin: 20rpx 0;
+  padding: 0 26rpx;
+  background-color: #FFF;
+}
+.orderDetail-item-payment {
+  font-size: 26rpx;
+  color: #F44F28;
+  font-weight: 500;
+}

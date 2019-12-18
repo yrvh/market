@@ -1,0 +1,46 @@
+<!-- 引入自定义全局组件 实现搜索框 -->
+<search></search>
+
+<!-- 分类页的 二级导航 -->
+<view class="sort-nav">
+  <yellow-btn class="sort-nav-clothes" 
+              title="服装" 
+              active="{{navNum=='服装'? 1:0}}" 
+              btn-width="sort-nav-btn-width"
+              bindtap="handleNavBtn"
+              data-num="服装"> </yellow-btn>
+  <yellow-btn class="sort-nav-food" 
+              title="美食" 
+              active="{{navNum=='美食'? 1:0}}" 
+              btn-width="sort-nav-btn-width"
+              bindtap="handleNavBtn"
+              data-num="美食"> </yellow-btn>
+  <yellow-btn class="sort-nav-goods" 
+              title="百货" 
+              active="{{navNum=='百货'? 1:0}}" 
+              btn-width="sort-nav-btn-width"
+              bindtap="handleNavBtn"
+              data-num="百货"> </yellow-btn>
+  <yellow-btn class="sort-nav-fresh" 
+              title="生鲜" 
+              active="{{navNum=='生鲜'? 1:0}}" 
+              btn-width="sort-nav-btn-width"
+              bindtap="handleNavBtn"
+              data-num="生鲜"> </yellow-btn>
+  <yellow-btn class="sort-nav-adorn" 
+              title="美妆" 
+              active="{{navNum=='美妆'? 1:0}}" 
+              btn-width="sort-nav-btn-width"
+              bindtap="handleNavBtn"
+              data-num="美妆"> </yellow-btn>
+</view>
+
+<!-- 商品列表 -->
+<view class="sort-goods-list">
+  <goods-list imgUrl="{{imgUrl}}" 
+              goodsText="{{goodsText}}" 
+              goodsPrice="{{goodsPrice}}"
+              wx:for="{{13}}" 
+              wx:key="index">
+  </goods-list>
+</view>

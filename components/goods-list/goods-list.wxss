@@ -1,0 +1,20 @@
+.goods-list {
+  height: 220rpx;
+  margin-bottom: 30rpx;
+}
+.goods-list>image{
+  height: 220rpx;
+  width: 220rpx;
+}
+.goods-list-message {
+  position: relative;
+  float: right;
+  padding-left: 20rpx;
+  height: 220rpx;
+  width: 458rpx;
+  font-size: 28rpx;
+}
+.goods-list-message-price {
+  margin-top: 65rpx;
+  font-weight: 600;
+}

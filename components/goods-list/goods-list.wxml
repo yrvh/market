@@ -1,0 +1,12 @@
+<view class="goods-list">
+  <image src="{{imgUrl}}" class="goods-list-img"></image>
+  <view class="goods-list-message">
+    <text>{{goodsText}}</text>
+    <view class="goods-list-message-price">{{goodsPrice}}</view>
+    <slot/>
+  </view>
+</view>
+
+<!-- /assets/img/goods-list.png 
+现摘香脆苹果口感香甜脆口吃了还想吃根本停不下来
+¥68.00  -->

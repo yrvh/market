@@ -1,0 +1,5 @@
+<view class="yellow  btn-width">
+  <view class="yellow-text {{active==1? 'active-text':''}}">{{title}}</view>
+  <view class="{{active==1? 'yellow-bg':''}}"></view>
+  <view class="yellow-vjwz"></view>
+</view>

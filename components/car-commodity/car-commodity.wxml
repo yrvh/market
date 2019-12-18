@@ -1,0 +1,20 @@
+<view class="carcom">
+  <view class="carcom-icon">
+    <image src="/assets/img/circle.png" class="carcom-icon-select"></image>
+    <image src="/assets/img/goods-list2.png" class="carcom-icon-img"></image>
+  </view>
+  
+  <view class="carcom-content">
+    <view class="carcom-content-message">
+      三只松鼠爆浆曲奇160g烘焙甜品饼干手工网红爆......
+      <view class="carcom-content-message-taste">
+        口味: 玫瑰咸味 120g/袋 ﹀
+      </view>
+    </view>
+    <view class="carcom-content-bottom">
+      <text>¥ 10.00</text>
+      <!-- 引入全局组件 实现增减商品的功能 -->
+      <add-goods add-goods-wh="add-goods-wh"/>
+    </view>
+  </view>
+</view>

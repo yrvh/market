@@ -1,0 +1,22 @@
+.order-tabbar {
+  height: 97rpx;
+  padding: 0 26rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150rpx;
+}
+.order-tabbar-money {
+}
+.order-tabbar-money text{
+  color: #f44f28;
+}
+.order-tabbar-btn {
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background-color: #ffe300;
+  text-align: center;
+  line-height: 80rpx;
+}

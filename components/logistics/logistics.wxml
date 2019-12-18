@@ -1,0 +1,14 @@
+<view class="logistics">
+  <view class="box">
+    <view class="logistics-icon">
+      <image src="/assets/icon/logistics.png" class="logistics-icon-img"></image>
+    </view>
+
+    <view class="logistics-content">
+      <view class="logistics-content-message">{{logisticsMessage}}</view>
+      <view class="logistics-content-date">{{logisticsDate}}</view>
+    </view>
+
+    <view class="logistics-link"> > </view>
+  </view>
+</view>

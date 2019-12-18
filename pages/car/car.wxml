@@ -1,0 +1,13 @@
+<view class="carshop">
+  <view class="carshop-bar">
+    <view class="carshop-bar-num">已选{{selectedCommodity}}件 {{numBtn}}</view>
+    <view class="carshop-bar-total">
+      合计:<text>{{selectedCommodityTotal}}</text>
+    </view>
+    <view class="carshop-bar-btn" bindtap="handleToSureOrder">合并支付</view>
+  </view>
+
+  <view class="carshop-list">
+    <car-commodity wx:for="{{5}}" wx:key="{{index}}"></car-commodity>
+  </view>
+</view>

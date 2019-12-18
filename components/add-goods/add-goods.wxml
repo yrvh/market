@@ -1,0 +1,5 @@
+<view class="add-goods add-goods-wh">
+        <view class="add-goods-minus">-</view>
+        <view class="add-goods-num">3</view>
+        <view class="add-goods-symbol">+</view>
+</view>

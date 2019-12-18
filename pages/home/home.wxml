@@ -1,0 +1,40 @@
+<!-- 引入自定义全局组件 实现搜索框 -->
+<search></search>
+
+<!-- 轮播图图片 -->
+<view class="home-swiper">
+  <image class="home-swiper-img" src="/assets/img/swiper.png"></image>
+</view>
+
+<!-- 首页二级导航 -->
+<view class="home-nav">
+  <view class="home-nav-sort">
+    <image src="/assets/icon/clothes.png" class="home-nav-sort-icon"></image>
+    <view class="home-nav-sort-text">服装</view>
+  </view>
+  <view class="home-nav-sort">
+    <image src="/assets/icon/food.png" class="home-nav-sort-icon"></image>
+    <view class="home-nav-sort-text">美食</view>
+  </view>
+  <view class="home-nav-sort">
+    <image src="/assets/icon/goods.png" class="home-nav-sort-icon"></image>
+    <view class="home-nav-sort-text">百货</view>
+  </view>
+  <view class="home-nav-sort">
+    <image src="/assets/icon/fresh.png" class="home-nav-sort-icon"></image>
+    <view class="home-nav-sort-text">生鲜</view>
+  </view>
+</view>
+
+
+<!-- 引入自定义全局组件  实现黄色文字的背景 -->
+<yellow-btn title="特别推荐" active="{{1}}" btn-width="home-goods-btn-width"> </yellow-btn>
+<view class="home-goods-list">
+  <goods-list imgUrl="{{imgUrl}}" 
+              goodsText="{{goodsText}}" 
+              goodsPrice="{{goodsPrice}}"
+              wx:for="{{10}}" 
+              wx:key="index">
+    <view class="home-goods-list-add">+</view>
+  </goods-list>
+</view>

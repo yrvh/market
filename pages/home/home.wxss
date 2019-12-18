@@ -1,0 +1,49 @@
+.home-swiper {
+  margin-top: 30rpx;
+  /* box-shadow: 0 0 2rpx 0 #f00; */
+  background-color: rgba(80,80,80,0.2);
+  border-radius: 10rpx;
+}
+.home-swiper-img {
+  width: 698rpx;
+  height: 352rpx;
+}
+.home-nav {
+  height: 126rpx;
+  margin-top: 56rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-nav-sort>image {
+  width: 70rpx;
+  height: 70rpx;
+}
+.home-nav-sort>view {
+  font-size: 26rpx;
+  text-align: center;
+  margin-top: 14rpx;
+  width: 70rpx;
+}
+
+.home-goods-btn-width{
+  width: 128rpx;
+}
+
+.home-goods-list {
+  margin-top: 52rpx;
+}
+
+.home-goods-list-add {
+  position: absolute;
+  right: 14rpx;
+  bottom: 0;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  background-color: #FFE300;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 42rpx;
+  font-weight: 900;
+}

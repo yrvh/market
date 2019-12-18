@@ -1,0 +1,21 @@
+.add-goods {
+  border: 1rpx solid #ddd;
+  border-radius: 10rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.add-goods-minus {
+  flex: 2;
+  font-size: 40rpx;
+}
+.add-goods-num {
+  flex: 3;
+  border-left: 1rpx solid #ddd;
+  border-right: 1rpx solid #ddd;
+}
+.add-goods-symbol {
+  flex: 2;
+  font-size: 40rpx;
+}

@@ -1,0 +1,16 @@
+.search {
+  position: relative;
+  width: 600rpx;
+  height: 66rpx;
+  border-radius: 33rpx;
+  border: 1rpx solid #e5e5e5;
+  background-color: #F5F5F5;
+  padding-left: 96rpx;
+}
+.search-icon {
+  position: absolute;
+  top: 13rpx;
+  left: 26rpx;
+  width: 40rpx;
+  height: 40rpx;
+}

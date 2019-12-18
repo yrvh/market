@@ -1,0 +1,5 @@
+<view class="order-tabbar">
+  <view class="order-tabbar-money">应付: <text>¥20.00</text></view>  
+  <view class="order-tabbar-btn">取消订单</view>
+  <view class="order-tabbar-btn">提交订单</view>
+</view>

@@ -1,0 +1,34 @@
+<view class="orderDetail">
+  <pay-status statusIcon="{{statusIcon}}" statusTitle="{{statusTitle}}" statusMessage="{{statusMessage}}"/>
+  <logistics logisticsMessage="{{logisticsMessage}}" logisticsDate="{{logisticsDate}}"></logistics>
+
+  <tel-address telName="{{telName}}" telAddress="{{telAddress}}" telNum="{{telNum}}">
+    <view class="orderDetail-address-icon" slot="leftIcon">
+      <image src="/assets/icon/location.png" class="orderDetail-address-icon-img"></image>
+    </view>
+  </tel-address>
+
+  <view class="orderDetail-item">
+    <store  imgUrl="{{imgUrl}}"
+          storeName="{{storeName}}" 
+          goodsText="{{goodsText}}" 
+          goodsPrice="{{goodsPrice}}"
+          goodsNum="{{goodsNum}}">
+    </store>
+
+    <sureorder-message title="运费 (快递)">
+      <view class="orderDetail-item-freight">¥ 8.00元</view>
+    </sureorder-message>
+    <sureorder-message title="订单总价">
+      <view class="orderDetail-item-total">¥ 16.00元</view>
+    </sureorder-message>
+    <sureorder-message title="实付款">
+      <view class="orderDetail-item-payment">¥ 16.00元</view>
+    </sureorder-message>
+  </view>
+
+  <order-information>
+  </order-information>
+
+  <order-tabbar></order-tabbar>
+</view>

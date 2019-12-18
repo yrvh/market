@@ -1,0 +1,29 @@
+.yellow {
+  position: relative;
+  margin: 52rpx auto;
+  text-align: center;
+}
+.yellow-text {
+  position: absolute;
+  z-index: 10;
+  font-size: 28rpx;
+  color: #666666;
+}
+.active-text {
+  font-size: 32rpx;
+  font-weight: 900;
+  color: #000;
+}
+
+.yellow-bg {
+  position: absolute;
+  top: 32rpx;
+  height: 8rpx;
+  width: 100%;
+  border-radius: 4rpx;
+  background-color: #FFE300;
+}
+.yellow-vjwz {
+  height: 32rpx;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.pay-status {
+  height: 180rpx;
+  background-color: #FFE300;
+  display: flex;
+  align-items: center;
+}
+.pay-status-icon {
+  width: 80rpx;
+  height: 80rpx;
+  padding: 40rpx 50rpx 60rpx;
+}
+.pay-status-icon-img {
+  width: 80rpx;
+  height: 80rpx;
+}
+.pay-status-content {
+  flex: 1;
+  height: 140rpx;
+  padding-top: 40rpx;
+}
+.pay-status-content-title {
+  font-size: 32rpx;
+}
+.pay-status-content-message {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}

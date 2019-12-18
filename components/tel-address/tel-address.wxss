@@ -1,0 +1,17 @@
+.tel-address {
+  font-size: 30rpx;
+  padding: 26rpx;
+  height: 138rpx;
+  display: flex;
+  background-color: #fff;
+}
+.tel-address-content {
+  flex: 1;
+  padding: 0 46rpx 0 26rpx;
+}
+.tel-address-content-name text{
+  font-weight: 700;
+}
+.tel-address-content-location {
+  margin-top: 22rpx;
+}

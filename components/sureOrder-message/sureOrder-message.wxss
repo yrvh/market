@@ -1,0 +1,10 @@
+.sureOrder-message {
+  height: 90rpx;
+  border-top: 2rpx solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sureOrder-message text{
+  font-size: 28rpx;
+}

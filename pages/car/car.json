@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "car-commodity": "/components/car-commodity/car-commodity"
+  }
+}

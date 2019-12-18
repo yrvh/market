@@ -1,0 +1,31 @@
+.order-information {
+  padding: 0 26rpx;
+  background-color: #fff;
+}
+.order-information-title {
+  line-height: 90rpx;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.order-information-content {
+  font-size: 24rpx;
+  color: #666;
+}
+.order-information-content>view {
+  line-height: 48rpx;
+}
+
+.order-information-contact {
+  line-height: 90rpx;
+  font-size: 26rpx;
+  display: flex;
+}
+.order-information-contact view{
+  flex: 1;
+  line-height: 89rpx;
+  border-top: 1rpx solid #eee;
+  text-align: center;
+}
+.order-information-contact-tel {
+  border-left: 1rpx solid #eee;
+}

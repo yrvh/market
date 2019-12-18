@@ -1,0 +1,36 @@
+.carshop-bar {
+  position: fixed;
+  top:0;
+  width: 698rpx;
+  height: 98rpx;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+.carshop-bar-num {
+  flex: 1;
+}
+.carshop-bar-total {
+  width: 200rpx;
+  text-align: center;
+}
+.carshop-bar-total text {
+  color: #F44F28;
+}
+.carshop-bar-btn{
+  width:200rpx;
+  line-height: 98rpx;
+  background-color: #fee;
+  color: #292;
+  font-weight: 700;
+  font-size: 36rpx;
+  text-align: center;
+}
+
+.carshop-list {
+  background-color: #fefefe;
+  padding-top: 77rpx;
+}

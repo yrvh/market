@@ -1,0 +1,22 @@
+
+.store {
+  border-bottom: 2rpx solid #eee;
+}
+.store-shop {
+  height: 85rpx;
+  line-height: 85rpx;
+}
+.store-shop-icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.store-add {
+  position: absolute;
+  right: 14rpx;
+  bottom: 42rpx;
+}
+
+.add-goods-wh {
+  width: 160rpx;
+  height: 50rpx;
+}

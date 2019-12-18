@@ -1,0 +1,14 @@
+<view class="order-information">
+  <view class="order-information-title">订单信息</view>
+  <view class="order-information-content">
+    <view>订单编号: 467354687354687</view>
+    <view>创建时间: 2019-10-20 10:12:22</view>
+    <view>付款时间: 2019-10-20 10:12:22</view>
+    <view>发货时间: 2019-10-21 10:55:22</view>
+    <view>成交时间: 2019-10-27 10:44:22</view>
+  </view>
+  <view class="order-information-contact">
+    <view>联系客服</view>
+    <view class="order-information-contact-tel">拨打电话</view>
+  </view>
+</view>

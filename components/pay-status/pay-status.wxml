@@ -1,0 +1,9 @@
+<view class="pay-status">
+    <view class="pay-status-icon">
+      <image class="pay-status-icon-img" src="{{statusIcon}}"></image>
+    </view>
+    <view class="pay-status-content">
+      <view class="pay-status-content-title">{{statusTitle}}</view>
+      <view class="pay-status-content-message">{{statusMessage}}</view>
+    </view>
+  </view>

@@ -1,0 +1,10 @@
+<view class="tel-address">
+  <slot name="leftIcon" /> 
+
+  <view class="tel-address-content">
+    <view class="tel-address-content-name"><text>{{telName}}</text> {{telNum}}</view>
+    <view class="tel-address-content-location">{{telAddress}}</view>
+  </view>
+
+  <slot name="rightIcon" />
+</view>
