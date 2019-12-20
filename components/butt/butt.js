@@ -1,14 +1,17 @@
-// components/sureOrder-message/sureOrder-message.js
+// components/button/button.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
+    active: {
+      type: Boolean,
+    },
     title: {
-      type: String,
-      value: "购买数量"
+      type: String
     }
   },
+  externalClasses: ['button'],
 
   /**
    * 组件的初始数据
@@ -21,6 +24,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    handleChange() {
+      this.triggerEvent('tapChange')
+    }
   }
 })

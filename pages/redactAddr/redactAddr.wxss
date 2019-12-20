@@ -1,0 +1,36 @@
+page{
+  width: 750rpx;
+  background-color: #eee;
+  padding: 0;
+}
+.redactAddr {
+  padding: 26rpx;
+  background-color: #fff;
+}
+.message-frame-style {
+  height: 100rpx;
+}
+.redactAddr-consignee {
+  font-size: 30rpx;
+  width: 188rpx;
+}
+.redactAddr-input {
+  height: 100rpx;
+}
+
+.message-frame-styleDef {
+  padding: 0 26rpx;
+  height: 100rpx;
+  margin: 20rpx 0;
+  background-color: #fff;
+}
+
+.message-frame-styleDel {
+  padding: 0 26rpx;
+  height: 100rpx;
+  background-color: #fff;
+}
+.redactAddr-delete {
+  font-size: 30rpx;
+  color: #F44F28;
+}

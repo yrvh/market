@@ -1,0 +1,15 @@
+<view class="mineAddr">
+  <message-frame  message-frame-style="message-frame-style" wx:for="{{5}}" wx:key="{{index}}">
+    <view slot="topIcon" class="mineAddr-telName">小张<text> 17934723988</text></view>
+    <view slot="bottomIcon" class="mineAddr-address">
+      <view class="mineAddr-address-default" wx:if="{{true}}">默认</view>
+      北海银河产业城B2座1601室
+    </view>
+    <view slot="rightIcon" class="mineAddr-btn" bindtap="handleToRedact">编辑</view>
+  </message-frame>
+</view>
+
+<view class="mineAddr-create" bindtap="handleToCreate">
+  <view  class="mineAddr-create-icon">+</view>
+  <text>添加收货地址</text>
+</view>

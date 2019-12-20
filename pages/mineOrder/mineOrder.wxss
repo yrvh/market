@@ -1,0 +1,42 @@
+page {
+  width: 750rpx;
+  padding: 0;
+  background-color: #eee;
+}
+.mineOrder-nav {
+  padding: 0 26rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.mineOrder-item {
+  margin: 20rpx 0;
+  padding: 0 26rpx;
+  background-color: #FFF;
+}
+.mineOrder-item-payStatus {
+  color: #F44F28;
+  font-size: 30rpx;
+}
+.mineOrder-item-bottom {
+  height: 132rpx;
+  padding: 30rpx 0;
+}
+.mineOrder-item-bottom-message {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+}
+.mineOrder-item-bottom-message-money text{
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.mineOrder-item-bottom-btn {
+  margin-top: 45rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.mineOrder-item-bottom-btn-sure {
+  margin-left: 20rpx;
+}

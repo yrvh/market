@@ -1,0 +1,15 @@
+.buttonStyle {
+  width: 156rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.buttonF {
+  color: #999;
+  border: 1rpx solid #999;
+}
+.buttonT {
+  background-color: #ffe300;
+}

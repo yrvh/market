@@ -1,0 +1,35 @@
+<view class="redactAddr">
+  <message-frame message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="redactAddr-consignee">收货人</view>
+    <input slot="topIcon" class="redactAddr-input" value="陈立"></input> 
+  </message-frame>
+
+  <message-frame message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="redactAddr-consignee">联系方式</view>
+    <input slot="topIcon" class="redactAddr-input" value="18745002200"></input>
+  </message-frame>
+
+  <message-frame message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="redactAddr-consignee">所在地区</view>
+    <input slot="topIcon" class="redactAddr-input" value="广西北海海城区"></input>
+  </message-frame>
+
+  <message-frame message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="redactAddr-consignee">详细地址</view>
+    <input slot="topIcon" class="redactAddr-input" value="北海大道88号"></input>
+  </message-frame>
+</view>
+
+<message-frame title="设为默认地址" message-frame-style="message-frame-styleDef">
+    <switch slot="rightIcon"
+            checked="false"
+            disabled="false"
+            type="switch"
+            color="#fde312"
+            bindchange="handleChangeDefault">
+    </switch>
+</message-frame>
+
+<message-frame message-frame-style="message-frame-styleDel">
+    <view slot="leftIcon" class="redactAddr-delete">删除收货地址</view>
+</message-frame>

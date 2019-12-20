@@ -26,14 +26,10 @@
   width: 70rpx;
 }
 
-.home-goods-btn-width{
-  width: 128rpx;
+.home-goods-title{
+  display: flex;
+  justify-content: center;
 }
-
-.home-goods-list {
-  margin-top: 52rpx;
-}
-
 .home-goods-list-add {
   position: absolute;
   right: 14rpx;

@@ -1,11 +1,15 @@
 {
   "pages": [
+    "pages/mineOrder/mineOrder",
+    "pages/sort/sort",
     "pages/mine/mine",
     "pages/orderDetail/orderDetail",
     "pages/sureOrder/sureOrder",
     "pages/car/car",
-    "pages/sort/sort",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/createAddr/createAddr",
+    "pages/redactAddr/redactAddr",
+    "pages/mineAddr/mineAddr"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -63,6 +67,7 @@
     "store": "/components/store/store",
     "tel-address": "/components/tel-address/tel-address",
     "order-tabbar": "/components/order-tabbar/order-tabbar",
-    "sureorder-message": "/components/sureOrder-message/sureOrder-message"
+    "message-frame": "/components/message-frame/message-frame",
+    "butt": "/components/butt/butt"
   }
 }

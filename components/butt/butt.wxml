@@ -1,0 +1,2 @@
+<view class="buttonF buttonStyle" wx:if="{{active==false}}" bindtap="handleChange">{{title}}</view>
+<view class="buttonT buttonStyle" wx:if="{{active==true}}" bindtap="handleChange">{{title}}</view>

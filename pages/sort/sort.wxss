@@ -2,6 +2,3 @@
   display: flex;
   justify-content: space-between;
 }
-.sort-nav-btn-width {
-  width: 64rpx;
-}

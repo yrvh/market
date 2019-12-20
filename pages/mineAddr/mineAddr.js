@@ -1,18 +1,21 @@
-// pages/mine/mine.js
+
 Page({
+
+
   data: {
 
   },
-  handleFrameAddress() {
+  handleToRedact() {
     wx.navigateTo({
-      url: '/pages/mineAddr/mineAddr',
+      url: '/pages/redactAddr/redactAddr',
     })
   },
-  handleFrameOrder() {
+  handleToCreate() {
     wx.navigateTo({
-      url: '/pages/mineOrder/mineOrder',
+      url: '/pages/createAddr/createAddr',
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,54 @@
+<view class="mineOrder-nav">
+  <yellow-btn class="mineOrder-nav-all" 
+              title="全部" 
+              active="{{navNum=='全部'? 1:0}}"
+              bindtap="handleNavBtn"
+              data-num="全部"> </yellow-btn>
+  <yellow-btn class="mineOrder-nav-notpay" 
+              title="待付款" 
+              active="{{navNum=='待付款'? 1:0}}" 
+              bindtap="handleNavBtn"
+              data-num="待付款"> </yellow-btn>
+  <yellow-btn class="mineOrder-nav-notdispatch" 
+              title="待发货" 
+              active="{{navNum=='待发货'? 1:0}}" 
+              bindtap="handleNavBtn"
+              data-num="待发货"> </yellow-btn>
+  <yellow-btn class="mineOrder-nav-notreceive" 
+              title="待收货" 
+              active="{{navNum=='待收货'? 1:0}}" 
+              bindtap="handleNavBtn"
+              data-num="待收货"> </yellow-btn>
+  <yellow-btn class="mineOrder-nav-complete" 
+              title="已完成" 
+              active="{{navNum=='已完成'? 1:0}}" 
+              bindtap="handleNavBtn"
+              data-num="已完成"> </yellow-btn>
+</view>
+
+
+<view class="mineOrder-item" wx:for="{{5}}" wx:key="{{index}}">
+  <store  imgUrl="{{imgUrl}}"
+          storeName="{{storeName}}" 
+          goodsText="{{goodsText}}" 
+          goodsPrice="{{goodsPrice}}"
+          goodsNum="{{goodsNum}}">
+    <view class="mineOrder-item-payStatus" slot="payStatus">{{payStatus}}</view>
+  </store>
+
+  <view class="mineOrder-item-bottom">
+    <view class="mineOrder-item-bottom-message">
+      <view class="mineOrder-item-bottom-message-num">共{{goodsNum}}件商品</view>
+      <view class="mineOrder-item-bottom-message-money">实付款:<text> {{goodsPrice}}</text></view>
+    </view>
+    <view class="mineOrder-item-bottom-btn">
+      <butt title="取消订单" active="{{!active}}" 
+            bind:tapChange="handleChange"
+            buttonStyle="buttonStyle"/>
+      <butt title="去付款" active="{{active}}" 
+            bind:tapChange="handleChange"
+            buttonStyle="buttonStyle" 
+            class="mineOrder-item-bottom-btn-sure"/>
+    </view>
+  </view>
+</view>

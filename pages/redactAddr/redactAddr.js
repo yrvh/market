@@ -1,18 +1,13 @@
-// pages/mine/mine.js
+// pages/redactAddr/redactAddr.js
 Page({
-  data: {
 
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    
   },
-  handleFrameAddress() {
-    wx.navigateTo({
-      url: '/pages/mineAddr/mineAddr',
-    })
-  },
-  handleFrameOrder() {
-    wx.navigateTo({
-      url: '/pages/mineOrder/mineOrder',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

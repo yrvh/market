@@ -32,6 +32,9 @@ page{
   width: 160rpx;
   height: 50rpx;
 }
+.message-frame-style {
+  height: 90rpx;
+}
 
 .sureOrder-remark {
   height: 92rpx;

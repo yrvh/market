@@ -1,0 +1,5 @@
+<view class="message-frame  message-frame-style" bindtap="handleFrame">
+    <slot name="leftIcon"/>
+    <view class="message-frame-text">{{title}}<slot name="topIcon" /><slot name="bottomIcon"/></view>
+    <slot name="rightIcon"/>
+</view>

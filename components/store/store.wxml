@@ -1,12 +1,15 @@
 <view class="store">
   <view class="store-shop">
-    <image src="/assets/icon/goodsShop.png" class="store-shop-icon"/> {{storeName}} >
+    <view>
+      <image src="/assets/icon/goodsShop.png" class="store-shop-icon"/> {{storeName}} >
+    </view>
+    <slot name="payStatus"/>
   </view>
   <!-- 引入商品组件 -->
   <goods-list imgUrl="{{imgUrl}}" 
               goodsText="{{goodsText}}" 
               goodsPrice="{{goodsPrice}}">
-    <view class="store-add">x{{goodsNum}}</view>
+    <view class="store-num">x{{goodsNum}}</view>
   </goods-list>
-  <slot />
+  <slot name="afterMarket"/>
 </view>

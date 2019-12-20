@@ -1,2 +1,45 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="mine-photo">
+  <view class="mine-photo-img"></view>
+  <view class="mine-photo-nickname">小丸子</view>
+</view>
+
+<view class="mine-content">
+  <message-frame title="我的订单" 
+                  message-frame-style="message-frame-style"
+                  bind:tapFrame="handleFrameOrder">
+    <view slot="leftIcon" class="mine-content-icon">
+      <image class="mine-content-icon-img" src="/assets/icon/mineOrder.png"></image>
+    </view>
+    <view slot="rightIcon" class="mine-content-btn">></view>
+  </message-frame>
+
+  <message-frame title="我的优惠券" message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="mine-content-icon">
+      <image class="mine-content-icon-img" src="/assets/icon/mineCoupon.png"></image>
+    </view>
+    <view slot="rightIcon" class="mine-content-btn">></view>
+  </message-frame>
+
+  <message-frame  title="我的收货地址" 
+                  message-frame-style="message-frame-style" 
+                  bind:tapFrame="handleFrameAddress">
+    <view slot="leftIcon" class="mine-content-icon">
+      <image class="mine-content-icon-img" src="/assets/icon/mineAddress.png"></image>
+    </view>
+    <view slot="rightIcon" class="mine-content-btn">></view>
+  </message-frame>
+
+  <message-frame title="我的资料" message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="mine-content-icon">
+      <image class="mine-content-icon-img" src="/assets/icon/mineMessage.png"></image>
+    </view>
+    <view slot="rightIcon" class="mine-content-btn">></view>
+  </message-frame>
+  
+  <message-frame title="关于商城" message-frame-style="message-frame-style">
+    <view slot="leftIcon" class="mine-content-icon">
+      <image class="mine-content-icon-img" src="/assets/icon/aboutStore.png"></image>
+    </view>
+    <view slot="rightIcon" class="mine-content-btn">></view>
+  </message-frame>
+</view>

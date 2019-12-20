@@ -15,15 +15,15 @@
           goodsNum="{{goodsNum}}">
   </store>
   
-  <sureorder-message title="购买数量">
-    <add-goods class="sureOrder-item-num" add-goods-wh="add-goods-wh"/>
-  </sureorder-message>
-  <sureorder-message title="优惠券">
-    <view class="sureOrder-item-coupon"><text>1张优惠券可用</text> ></view>
-  </sureorder-message>
-  <sureorder-message title="配送方式">
-    <view class="sureOrder-item-delivery">快递配送: ¥8.00元 ></view>
-  </sureorder-message>
+  <message-frame title="购买数量" message-frame-style="message-frame-style">
+    <add-goods slot="rightIcon" class="sureOrder-item-num" add-goods-wh="add-goods-wh"/>
+  </message-frame>
+  <message-frame title="优惠券" message-frame-style="message-frame-style">
+    <view slot="rightIcon" class="sureOrder-item-coupon"><text>1张优惠券可用</text> ></view>
+  </message-frame>
+  <message-frame title="配送方式" message-frame-style="message-frame-style">
+    <view slot="rightIcon" class="sureOrder-item-delivery">快递配送: ¥8.00元 ></view>
+  </message-frame>
 </view>
 
 <view class="sureOrder-remark">

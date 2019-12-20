@@ -16,15 +16,15 @@
           goodsNum="{{goodsNum}}">
     </store>
 
-    <sureorder-message title="运费 (快递)">
-      <view class="orderDetail-item-freight">¥ 8.00元</view>
-    </sureorder-message>
-    <sureorder-message title="订单总价">
-      <view class="orderDetail-item-total">¥ 16.00元</view>
-    </sureorder-message>
-    <sureorder-message title="实付款">
-      <view class="orderDetail-item-payment">¥ 16.00元</view>
-    </sureorder-message>
+    <message-frame title="运费 (快递)" message-frame-style="message-frame-style">
+      <view slot="rightIcon" class="orderDetail-item-freight">¥ 8.00元</view>
+    </message-frame>
+    <message-frame title="订单总价" message-frame-style="message-frame-style">
+      <view slot="rightIcon" class="orderDetail-item-total">¥ 16.00元</view>
+    </message-frame>
+    <message-frame title="实付款" message-frame-style="message-frame-style">
+      <view slot="rightIcon" class="orderDetail-item-payment">¥ 16.00元</view>
+    </message-frame>
   </view>
 
   <order-information>

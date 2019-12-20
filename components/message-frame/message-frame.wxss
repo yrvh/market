@@ -1,0 +1,9 @@
+.message-frame {
+  border-top: 2rpx solid #eee;
+  display: flex;
+  align-items: center;
+}
+.message-frame-text{
+  flex: 1;
+  font-size: 28rpx;
+}

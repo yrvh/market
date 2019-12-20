@@ -15,7 +15,7 @@ Component({
   },
 
 
-  externalClasses: ['btn-width'],
+  externalClasses: [],
 
   /**
    * 组件的初始数据

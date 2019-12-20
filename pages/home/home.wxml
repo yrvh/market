@@ -28,7 +28,9 @@
 
 
 <!-- 引入自定义全局组件  实现黄色文字的背景 -->
-<yellow-btn title="特别推荐" active="{{1}}" btn-width="home-goods-btn-width"> </yellow-btn>
+<view class="home-goods-title">
+  <yellow-btn title="特别推荐" active="{{1}}"> </yellow-btn>
+</view>
 <view class="home-goods-list">
   <goods-list imgUrl="{{imgUrl}}" 
               goodsText="{{goodsText}}" 

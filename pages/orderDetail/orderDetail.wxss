@@ -33,3 +33,7 @@ page{
   color: #F44F28;
   font-weight: 500;
 }
+
+.message-frame-style {
+  height: 90rpx;
+}
